@@ -1,0 +1,99 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 27.813rem) {
+  .profile-image {
+    width: 35% !important;
+  }
+}
+
+@media (min-width: 36rem) {
+  .profile-image {
+    width: 28% !important;
+  }
+}
+
+@media (min-width: 48rem) {
+  .profile-image {
+    width: 20% !important;
+  }
+}
+
+@media (min-width: 62rem) {
+  .profile-image {
+    width: 15% !important;
+  }
+
+  .skill-image {
+    height: 5rem !important;
+  }
+}
+
+.hero-sec {
+  background-color: #2f3e46;
+  color: white;
+}
+
+.profile-image {
+  width: 38%;
+}
+
+.skill-heading {
+  border-bottom: 0.125rem solid #2f3e46;
+  width: fit-content;
+}
+
+.skill-image {
+  height: 4rem;
+}
+
+.projects-sec,
+.footer-sec {
+  background-color: #2f3e46;
+  color: white;
+}
+
+.project-heading,
+.footer-heading {
+  border-bottom: 0.125rem solid white;
+  width: fit-content;
+}
+
+.project-card {
+  max-height: 30rem;
+}
+
+.project-btn,
+.connect-btn {
+  text-decoration: none;
+  background-color: #032b43;
+  color: white;
+  width: 30%;
+  border: 0.0625rem solid #032b43;
+  border-radius: 1rem;
+  font-weight: 500;
+}
+
+.project-btn:hover,
+.connect-btn:hover {
+  border: 0.0625rem solid #032b43;
+  background-color: #215a84;
+  transition: all 0.2s;
+}
+
+.connect-heading {
+  border-bottom: 0.125rem solid #2f3e46;
+  width: fit-content;
+}
+
+.link-icon {
+  width: 5rem;
+}
+
+.x-link-icon {
+  width: 6.5rem;
+}

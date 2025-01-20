@@ -1,0 +1,164 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="hero-sec">
+      <nav class="p-4">
+        <p class="fs-4 fw-medium">@amanKhare</p>
+      </nav>
+      <section class="container pt-4 pb-5">
+        <div class="text-center img-container">
+          <img
+            src="./assets//profile-gray.png"
+            alt="profile-image"
+            class="profile-image img-fluid rounded-pill"
+          />
+          <p class="fw-normal fs-6 py-3 m-0">Hello 👋🏻, I am Aman</p>
+          <h4 class="m-0 fw-normal py-1">A FullStack web developer,</h4>
+          <h4 class="m-0 fw-normal py-1">
+            bringing your ideas to the browser,
+          </h4>
+          <h4 class="m-0 fw-normal py-1">with precision and passion.</h4>
+        </div>
+      </section>
+    </header>
+    <main class="py-4">
+      <h1 class="m-0 pt-3 pb-1 fw-bold mx-auto skill-heading">SKILLS</h1>
+
+      <section
+        class="container d-flex align-items-center justify-content-between flex-wrap pt-5 pb-5"
+      >
+        <div class="d-flex flex-column align-items-center gap-2">
+          <img src="./assets/html.png" class="skill-image" alt="html-logo" />
+          <p class="fw-medium fs-5">HTML</p>
+        </div>
+        <div class="d-flex flex-column align-items-center gap-2">
+          <img src="./assets/css.png" class="skill-image" alt="html-logo" />
+          <p class="fw-medium fs-5">CSS</p>
+        </div>
+        <div class="d-flex flex-column align-items-center gap-2">
+          <img
+            src="./assets/bootstrap.png"
+            class="skill-image"
+            alt="html-logo"
+          />
+          <p class="fw-medium fs-5">BOOTSTRAP</p>
+        </div>
+        <div class="d-flex flex-column align-items-center gap-2">
+          <img
+            src="./assets/vanilla-js.png"
+            class="skill-image"
+            alt="html-logo"
+          />
+          <p class="fw-medium fs-5">Vanilla JS</p>
+        </div>
+        <div class="d-flex flex-column align-items-center gap-2">
+          <img src="./assets/react.png" class="skill-image" alt="html-logo" />
+          <p class="fw-medium fs-5">React.js</p>
+        </div>
+        <div class="d-flex flex-column align-items-center gap-2">
+          <img src="./assets/redux.png" class="skill-image" alt="html-logo" />
+          <p class="fw-medium fs-5">Redux</p>
+        </div>
+        <div class="d-flex flex-column align-items-center gap-2">
+          <img src="./assets/express.png" class="skill-image" alt="html-logo" />
+          <p class="fw-medium fs-5">Express.js</p>
+        </div>
+        <div class="d-flex flex-column align-items-center gap-2">
+          <img src="./assets/mongoDB.png" class="skill-image" alt="html-logo" />
+          <p class="fw-medium fs-5">mongoDB</p>
+        </div>
+      </section>
+
+      <section class="container-fluid projects-sec py-4">
+        <h1 class="m-0 pt-3 pb-1 fw-bold mx-auto project-heading">PROJECTS</h1>
+
+        <div class="row pt-5 pb-4">
+          <div class="col-12 col-sm-6 col-lg-4 mb-4">
+            <div class="card project-card">
+              <div class="card-header">
+                <img
+                  src="./assets/project-1.png"
+                  class="rounded img-fluid"
+                  alt="project-image"
+                />
+              </div>
+              <div class="card-body text-center py-2">
+                <h2 class="fw-bold m-0 py-2">Pustaks</h2>
+                <p class="py-2 fw-medium">
+                  A Book Store name
+                  <span class="fw-bold text-primary-emphasis">Pustaks</span>
+                  which contains large number of library of books consisting
+                  multiple genres.
+                </p>
+                <a
+                  class="project-btn py-1"
+                  href="https://pustaks.vercel.app/"
+                  target="_blank"
+                  type="button"
+                  >Visit</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container form">
+        <h1 class="m-0 pt-5 pb-1 fw-bold mx-auto connect-heading">CONNECT</h1>
+        <form class="py-5">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="mb-4">
+            <label for="exampleInputPassword1" class="form-label"
+              >Message</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleInputPassword1"
+            ></textarea>
+          </div>
+          <button type="button" class="connect-btn py-1">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer class="container-fluid footer-sec py-4">
+      <h2 class="m-0 pt-3 pb-1 fw-bold mx-auto footer-heading">QUICK LINKS</h2>
+
+      <div class="d-flex align-items-center justify-content-center gap-4 py-5">
+        <a href="https://www.linkedin.com/in/khareaman/" target="_blank"
+          ><img
+            src="./assets/linkedIn.webp"
+            class="link-icon"
+            alt="linkedIn Icon"
+        /></a>
+        <a href="https://github.com/Amkr1997" target="_blank"
+          ><img src="./assets/github.png" class="link-icon" alt="github Icon"
+        /></a>
+        <a href="https://x.com/Amankha37996261" target="_blank"
+          ><img src="./assets/X.png" class="x-link-icon" alt="X Icon"
+        /></a>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
