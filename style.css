@@ -63,8 +63,12 @@ body {
   width: fit-content;
 }
 
-.project-card {
+.project-col {
   max-height: 30rem;
+}
+
+.project-card {
+  height: 100%;
 }
 
 .project-btn,

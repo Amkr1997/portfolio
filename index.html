@@ -2,6 +2,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="Icon" type="image/svg+xml" href="./assets/portfolio+ico.ico" />
     <title>Portfolio</title>
     <link
       rel="stylesheet"
@@ -82,6 +83,34 @@
         <h1 class="m-0 pt-3 pb-1 fw-bold mx-auto project-heading">PROJECTS</h1>
 
         <div class="row pt-5 pb-4">
+          <div class="col-12 col-sm-6 col-lg-4 mb-4 project-col">
+            <div class="card project-card">
+              <div class="card-header">
+                <img
+                  src="./assets/socio-gram.png"
+                  class="rounded img-fluid"
+                  alt="project-image"
+                />
+              </div>
+              <div class="card-body text-center py-2">
+                <h2 class="fw-bold m-0 py-2">Socio-Gram</h2>
+                <p class="py-2 fw-medium">
+                  A Social Media website naming
+                  <span class="fw-bold text-primary-emphasis">Socio-Gram</span>
+                  where you can create, update, delete and view posts. You can
+                  like, bookmark them. Also can see profile and edit them.
+                </p>
+                <a
+                  class="project-btn py-1"
+                  href="https://sociog.vercel.app/"
+                  target="_blank"
+                  type="button"
+                  >Visit</a
+                >
+              </div>
+            </div>
+          </div>
+
           <div class="col-12 col-sm-6 col-lg-4 mb-4">
             <div class="card project-card">
               <div class="card-header">
@@ -109,21 +138,56 @@
               </div>
             </div>
           </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 mb-4">
+            <div class="card project-card">
+              <div class="card-header">
+                <img
+                  src="./assets/taskficient.png"
+                  class="rounded img-fluid"
+                  alt="project-image"
+                />
+              </div>
+              <div class="card-body text-center py-2">
+                <h2 class="fw-bold m-0 py-2">TaskFicient</h2>
+                <p class="py-2 fw-medium">
+                  A Dashboard website naming
+                  <span class="fw-bold text-primary-emphasis">TaskFicient</span>
+                  where you can create tasks assign them tags and much more and
+                  see reports with charts.
+                </p>
+                <a
+                  class="project-btn py-1"
+                  href="https://taskficient.vercel.app/"
+                  target="_blank"
+                  type="button"
+                  >Visit</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       <section class="container form">
         <h1 class="m-0 pt-5 pb-1 fw-bold mx-auto connect-heading">CONNECT</h1>
-        <form class="py-5">
+        <form
+          action="https://formspree.io/f/xnnjvbjj"
+          method="POST"
+          class="py-5"
+        >
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label"
               >Email address</label
             >
             <input
               type="email"
+              name="email"
               class="form-control"
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
+              required
+              autocomplete="off"
             />
           </div>
           <div class="mb-4">
@@ -132,10 +196,13 @@
             >
             <textarea
               class="form-control"
+              name="message"
               id="exampleInputPassword1"
+              required
+              autocomplete="off"
             ></textarea>
           </div>
-          <button type="button" class="connect-btn py-1">Submit</button>
+          <button type="submit" class="connect-btn py-1">Submit</button>
         </form>
       </section>
     </main>
